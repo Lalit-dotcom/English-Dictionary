@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: salmon;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    background-color: rgba(255,255,255,0.3);
+    max-width: 550px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.input{
+    height: 50px;
+    width: 85%;
+    background-color: rgba(255,255,255,0.6);
+    border-color: rgba(255,255,255,0.4);
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.meaning-container{
+    display: none;
+}
